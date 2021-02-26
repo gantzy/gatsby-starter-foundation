@@ -123,7 +123,6 @@
 	}
 	.featured-image {
 		border-radius: 12px;
-		max-width: none !important;
 	}
 	@media (max-width: $breakpoint-sm) {
 		padding: 30px 0;
@@ -252,6 +251,7 @@ article img {
 .blog-post {
 	.featured-image {
 		border-radius: 12px;
+		max-width: none !important;
 	}
 }
 // Buttons 
