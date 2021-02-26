@@ -8,8 +8,7 @@ const logoStyle = {
 
 const linkStyle = {
     float: 'right',
-    height: '50px',
-    lineHeight: '50px',
+    lineHeight: '100px',
 };
 
 const Logo = (props) => (
