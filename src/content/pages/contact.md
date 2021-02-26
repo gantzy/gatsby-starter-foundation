@@ -3,6 +3,4 @@ template: contact-page
 slug: /contact
 title: Get in touch
 ---
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
-
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+Have a question about any of the articles that are on this website? Looking to get playtesting on your game? Any Unity Dev questions that you might have that we haven't covered? Chances are we can learn alongside of you. Just let us know!
