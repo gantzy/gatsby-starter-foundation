@@ -17,6 +17,7 @@ query LayoutQuery {
   site {
     siteMetadata {
       siteTitle: title
+      defaultImage: image
     }
   }
 }
@@ -25,13 +26,13 @@ query LayoutQuery {
 const Layout = ({children, className, props}) => {
 
   const { site } = useStaticQuery(query)
-  const { siteTitle } = site.siteMetadata
+  const { defaultImage, siteTitle } = site.siteMetadata
 
 
   return (
     <div className="primary-container">
       <Header>
-        <Logo title={siteTitle} />
+        <Logo title={siteTitle} image={defaultImage} />
         <Navigation/>
         <div sx={layoutStyle.theme}>
           <Theme/>
