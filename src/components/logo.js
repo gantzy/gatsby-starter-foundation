@@ -16,7 +16,7 @@ const Logo = (props) => (
   <div className="site-logo">
     <Link to="/">
         <img src={props.image} style={logoStyle}/>
-        <span style={linkStyle}>{props.title}<span>
+        <span style={linkStyle}>{props.title}</span>
     </Link>
   </div>
 );
