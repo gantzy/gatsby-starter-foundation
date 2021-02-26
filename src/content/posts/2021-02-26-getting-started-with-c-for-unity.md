@@ -73,6 +73,6 @@ public class Character : MonoBehaviour {
 
 (This code assumes there is a GameObject with the tag `Enemy` and the Character script added onto it)
 ```
-Alright, sick. This code is complete. Once again, lets review our code and hopefully we are stating to see a pattern here. What we can see in our new method `DealDamage` is that we got a reference to a `Character` type! Woot! Since our variable has a very specific type, it knows that it has access to very specific methods. So now that we know the `enemy` is a `Character` we also know that the `Character` can `TakeDamage`.
+Alright, sick. This code is complete. Once again, lets review our code and hopefully we are starting to see a pattern here. What we can see in our new method `DealDamage` is that we got a reference to a `Character` type! Woot! Since our variable has a very specific type, it knows that it has access to very specific methods. So now that we know the `enemy` is a `Character` we also know that the `Character` can `TakeDamage`.
 
 This is the power of typed languages. Instead of assuming what things are, we can without a doubt ensure that specific variables and objects that you create in your game have specific ways of interacting with each other. You might think of some other ways to implement an interaction that might require this type of typed interaction, such as gaining experience or casting an ability. Honestly, the list of things you could come up with is endless, so let's get off of this article and back into Unity.
