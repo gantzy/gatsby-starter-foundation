@@ -1,10 +1,11 @@
 ---
 template: blog-post
 title: "Unity Reviews: Eternal Return: Black Survival"
-slug: /eternal-return_black-survival-review
+slug: /unity-reviews-eternal-return-black-survival-intro
 date: 2021-02-26 12:49
-description: "Eternal Return: Black Survival Review. Giving a personal review on
-  my experience with Eternal Return."
+description: "Eternal Return: Black Survival Review. Reviewing gameplay aspects
+  of Eternal Return while also picking pieces of the game to implement into
+  Unity, such as Top Down, Point and Click Movement."
 featuredImage: /assets/black_survival.png
 ---
 Welcome to my first series, Unity Reviews, where I will be going over games that I am currently enjoying while following it up by talking about how to create some of the features that are in each game. Let's dive right in!
