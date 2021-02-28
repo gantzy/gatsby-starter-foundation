@@ -22,7 +22,7 @@ Now that your terrain is created you probably have noticed ITS HUGE. Not quite o
 
 ![Unity Terrain Mesh Resolution Settings](/assets/terrain_mesh_resolution.png "Unity Terrain Mesh Resolution Settings")
 
-We now have a reasonable sized terrain, not to big, not too small. Just right. Once you are there we can take a step which really is core to how this style of movement works. Opening up a new tab from Unity for Navigation. Go to Window > AI > Navigation. Dock that where you would like and then click the tab `Bake` and once again click the button called \`Bake\`. What you should see is blue covering most of the terrain, all but the edges. If you do, then you are on the right track. We will cover what exactly is going on a bit later, I'm still figuring some of this out myself.
+We now have a reasonable sized terrain, not to big, not too small. Just right. Once you are there we can take a step which really is core to how this style of movement works. Opening up a new tab from Unity for Navigation. Go to Window > AI > Navigation. Dock that where you would like and then click the tab `Bake` and once again click the button called `Bake`. What you should see is blue covering most of the terrain, all but the edges. If you do, then you are on the right track. We will cover what exactly is going on a bit later, I'm still figuring some of this out myself.
 
 ![Unity NavMesh Baked Area](/assets/nav_mesh_bake.png "Unity NavMesh Baked Area")
 
