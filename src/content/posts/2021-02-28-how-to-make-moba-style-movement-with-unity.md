@@ -107,6 +107,6 @@ LETS HEAD BACK TO UNITY.
 
 Our last step is to attach our new script to our capsule. Remember that neat little thing just one full paragraph ago that automatically adds components? Well if you attach the new `CharacterMovement` script you will see it also added that `NavMeshAgent` that we require for this script to work. Its basically magic and will save you so much time not having to check each and every script to figure out what is required. Finally lets adjust the camera so we can see a little bit better and everything should now be in place... Lets press play!
 
-![MOBA Style Top Down Movement in Unity](/assets/moba_movement.gif "MOBA Style Movement in Unity")
+![MOBA Style Top Down Movement in Unity](https://media.giphy.com/media/o4tVL0ZQInrHjbpgmo/giphy.gif)
 
 After clicking around a bit you can see it working. There you have it folks, a simple but effective way to move around your character using a point and click style, top down movement system seen in many MOBA games and other top down games. In our next article we will talk about how to keep the camera on the player as well as adding rotation to our character so they are always pointing forward. Maybe we will also unlock the camera and let you move the camera by going to the edge of the screens just like in your favorite games. Until then! (Seriously, stop staring at your script, you're creeping it out)
