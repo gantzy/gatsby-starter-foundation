@@ -5,7 +5,8 @@ slug: /moba-style-movement-rotation-with-unity
 date: 2021-02-28 21:21
 description: MOBA Style movement and character rotation in Unity just like your
   favorite games League of Legends, DotA2 and many other top down, point and
-  click battle arena games. Come create your game with us, gamers gonna game.
+  click battle arena games. Covering Slerp character rotation. Come create your
+  game with us, gamers gonna game.
 featuredImage: /assets/rotation_bg_final.jpg
 ---
 **Disclaimer:** If you are coming into this page fresh, you may want to check out the last article to get set up and into Unity with no problem. You can either go to the end of this article to go back or [Click Here](https://www.gonnagame.com/moba-style-movement-unity) to get started.
@@ -68,7 +69,7 @@ Oof, the rotation of the character is super slow and unrealistic for a MOBA styl
 
 Lets take a second to think about exactly what we might want for our MOBA. We want turn speeds to be quick and make sense. So they can't be instant since that isn't realistic, but they can't be so slow that our character is running backwards half of the time. There are actually a few ways to do this. Taking a look at our first option:
 
-\### Slerp(ing) for the win
+### Slerp(ing) for the win
 
 If you've been around before, you will no doubt have seen methods like Lerp and Slerp. Nope, not what you do when eating a hot, delicious bowl of ramen. Its definitely something that took me a moment to remember. But both of these are short for Linear Interpolation and Spherical Linear Interpolation, respectively. Wow, that really simplified it for us /s. I'm no math genius but the long and short of it is linear interpolation determines a point on a straight line and spherical linear interpolation finds a point on a curve. So between point A, your start position, and point B, the final destination, it will determine how far along that path you are and will return that point. Seems simple enough.
 
