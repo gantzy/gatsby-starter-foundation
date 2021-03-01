@@ -2,7 +2,7 @@ export default {
   colors: {
     text: '#000',
     background: '#fff',
-    primary: '#5C2941',
+    primary: '#bf751a',
     accent: '#fff',
     muted: 'rgba(0, 0, 0, 0.7)',
     cardBg: '#fff',
@@ -11,13 +11,13 @@ export default {
     inputBorder: "#aaa",
     inputBackground: "#fff",
     socialIcons:"#a8959e",
-    socialIconsHover:"#5c2941",
+    socialIconsHover:"#bf751a",
     modes: {
       dark: {
         text: '#f5f5f5',
         background: '#111',
         primary: '#252525',
-        accent: '#5C2941',
+        accent: '#bf751a',
         muted: 'rgba(255, 255, 255, 0.7)',
         buttonAccent: '#fff',
         cardBg: '#252525',
