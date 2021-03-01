@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\content",
+    "\\src\\content\\pages",
+    "\\src\\content\\posts",
+    "\\src\\gatsby-plugin-theme-ui",
+    "\\src\\pages",
+    "\\src\\templates",
+    "\\src\\util"
+  ],
+  "SelectedNode": "\\src\\assets\\scss\\_defaults.scss",
+  "PreviewInSolutionExplorer": false
+}
