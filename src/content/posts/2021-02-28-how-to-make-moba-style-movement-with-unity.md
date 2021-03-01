@@ -1,6 +1,6 @@
 ---
 template: blog-post
-title: How to Make MOBA Style Movement with Unity - Part 1
+title: How to Make MOBA Style Movement with Unity - Character Movement
 slug: /moba-style-movement-unity
 date: 2021-02-27 13:02
 description: "MOBA Style Movement Tutorial for Unity. A quick look into how to
