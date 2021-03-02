@@ -80,6 +80,9 @@ const Post = ({ data, pageContext }) => {
       />
       <article className="blog-post">
         <header className="featured-banner">
+          {(previous || next) && (
+            <Pagination {...props} />
+          )}
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
             <time>{frontmatter.date}</time>
